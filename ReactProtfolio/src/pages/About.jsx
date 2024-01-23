@@ -1,9 +1,11 @@
+import pho from '../assets/IMG-1789.jpg'
+
 export default function About() {
   return (
-    <div>
+    <div className='container row'>
       <h1>About Page</h1>
-      <img src="../assets/IMG-1789.jpg" alt="" />
-      <p>
+      <img src={pho} className='col-md-3' alt="" />
+      <p >
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
         mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non

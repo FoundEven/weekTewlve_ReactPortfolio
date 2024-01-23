@@ -14,7 +14,7 @@ function App() {
       <main className="mx-3">
         <Outlet />
       </main>
-      <footer>
+      <footer className='text-center bg-body-tertiary' style={{backgroundColor: "rgba(0, 0, 0, 0.05)"}}>
         <Footer/>
       </footer>
     </>
