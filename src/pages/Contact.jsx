@@ -43,31 +43,46 @@ function Form() {
   };
 
    return (
-    <div className="container text-center">
-      <h1>Hello {userName}</h1>
+    <div className="container ">
+      <h1 className='text-center p-4'>Contact Form</h1>
       <form className="form" onSubmit={handleFormSubmit}>
-        <input
+        <div className="form-floating mb-3">
+          <input
           value={email}
+          className="form-control"
           name="email"
           onChange={handleInputChange}
           type="email"
           placeholder="email"
+          id="floatingInput"
         />
-        <input
+          <label htmlFor="floatingInput">Email address</label>
+        </div>
+        <div className="form-floating mb-3">
+          <input
           value={userName}
-          name="userName"
-          onChange={handleInputChange}
+          className="form-control"
+          name="username"
+          onChange={(e)=>setUserName(e.target.value)}
           type="text"
           placeholder="username"
+          id="floatingInput"
         />
-        <input
+          <label htmlFor="floatingInput">Username</label>
+        </div>
+        <div className="form-floating mb-3">
+          <input
           value={message}
+          className="form-control"
           name="message"
           onChange={handleInputChange}
           type="text"
           placeholder="message"
+          id="floatingInput"
         />
-        <button type="submit">
+          <label htmlFor="floatingInput">Message</label>
+        </div>
+        <button className='p-3' type="submit">
           Submit
         </button>
       </form>

@@ -1,14 +1,26 @@
+import resume from '../assets/Resume.pdf'
+
 export default function Resume() {
   return (
-    <div>
+    <div className='text-white'>
       <h1>Resume</h1>
-      <h2 href="">Link to resume</h2>
-      <h2>Proficiencies</h2>
+      <a href={resume}>Link to resume</a>
+      <h2>FrontEnd Proficiencies</h2>
       <ul>
         <li>HTML</li>
         <li>CSS</li>
         <li>JavaScript</li>
-        <li></li>
+        <li>bootstrap</li>
+        <li>React</li>
+        <li>Jquery</li>
+      </ul>
+      <h2>BackEnd Proficiencies</h2>
+      <ul>
+        <li>Node.js</li>
+        <li>MySQL</li>
+        <li>MongoDB</li>
+        <li>Webpack</li>
+        <li>Express</li>
       </ul>
     </div>
   );
