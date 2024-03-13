@@ -7,7 +7,7 @@ export default function About() {
       <img src={pho} className='col-md-3 rounded mx-auto d-block' alt="" />
       <div className='p-2' style={{backgroundColor: "white"}}>
       <p className='p-4' >
-        Hello! My name is Evan Rice. I graduated from highschool. Now, I am a student at a UTSA coding bootcamp. I love the creativity of coding and all the unique ways to solve problems that I may come across. I like to learn as it allowes me to improve myself and get better at the things that I like to do.
+        Hello! My name is Evan Rice. I graduated from highschool and gotten a certificate from UTSA coding bootcamp. I love the creativity of coding and all the unique ways to solve problems that I may come across. I like to learn as it allowes me to improve myself and get better at the things that I like to do.
       </p>
       </div>
     </div>
